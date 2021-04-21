@@ -53,8 +53,8 @@ basestrap /mnt vim nano mc
 echo "Настройка системы"
 fstabgen -U /mnt >> /mnt/etc/fstab
 
-artix-chroot /mnt # formerly artools-chroot
-#artix-chroot /mnt sh -c "$(curl -fsSL git.io/myscript.sh)"
+#artix-chroot /mnt # formerly artools-chroot
+artix-chroot /mnt sh -c "$(curl -fsSL https://git.io/JOKWB)"
 
 #functions
 function with_bios {
