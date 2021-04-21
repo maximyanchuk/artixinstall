@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# https://git.io/JOKWS
 # Artix Linux installation
 # Скрипт быстрой базовой установки Artix Linux runit
 # Основан на Artix Wiki 21.04.2021
